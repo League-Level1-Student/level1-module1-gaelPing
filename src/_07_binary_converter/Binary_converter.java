@@ -12,10 +12,14 @@ public class Binary_converter {
 	JButton rightButton = new JButton();
 	JFrame frame = new JFrame();
 	JPanel panel = new JPanel();
-	JTextField text= new JTextField();
+	JTextField text = new JTextField();
 
+	void button() {
+		frame.setVisible(true);
+		frame.add(panel);
+		panel.add(rightButton);
+		panel.add(leftButton);
+		panel.add(text);
 
-void button(){
-	panel.add(text);
-}
+	}
 }
