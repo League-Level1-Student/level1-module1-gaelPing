@@ -7,9 +7,7 @@ public class Binary_runner {
 		Binary_converter corn = new Binary_converter();
 		 
 		corn.button();
-//		micro.putInMicrowave(corn);
-//		micro.setTime(2);
-//		micro.startMicrowave();3
+
 
 }
 	}
